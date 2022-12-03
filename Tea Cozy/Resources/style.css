@@ -1,0 +1,106 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    font-family: Helvetica;
+    font-size:22px;
+    color: #FFF5EE;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header{
+    height: 69px;
+    position: fixed;
+    border-bottom:1px solid seashell;
+    width:100%;
+    z-index: 1;
+    background-color:black;
+    top:0;
+}
+header .logo img{
+    height: 50px;
+    width: auto;
+    margin:9px 10px;
+    float:left;
+}
+header ul{
+    float:right;
+    list-style: none;
+    margin-top:9px;
+}
+header ul li{
+    text-decoration: underline;
+    padding:10px;
+    float:left;
+}
+.banner{
+    position: relative;
+    margin-top:69px;
+    height: 700px;
+    background-image: url("./img/mission-background.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:1200px;
+    margin:70px auto;
+
+}
+.banner #mission{
+    width:1200px;
+    background-color:black;
+    padding:10px;
+}
+#teeofthemonth{
+    width:1000px;
+    margin:0 auto;
+}
+#teeofthemonth .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items: center;
+} 
+#teeofthemonth .img{
+    width:300px;
+}
+#teeofthemonth .img img{
+    height:200px;
+    padding:10px 0 10px 0;
+}
+#locations{
+    margin:30px auto;
+    height: 500px;
+    width:1200px;
+    background-image: url("./img/locations-background.png");
+    background-position: center;
+    background-size:cover;
+}
+#locations .container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#locations .location{
+    margin:15px 20px;
+    width:300px;
+    opacity: 1;
+    background-color: black;
+}
+#locations .location h3, h4{
+    padding:10px;
+}
+footer{
+    height: 200px;
+}
+
+#copyright{
+    text-align:left;
+    margin-left:20px;
+    padding-bottom:30px;
+}
