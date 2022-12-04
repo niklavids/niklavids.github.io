@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page Title</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-color: black;
+      font-size: 20px;
+      color: white;
+    }
+    header {
+      background-image: url('https://images.pexels.com/photos/3063362/pexels-photo-3063362.jpeg?cs=srgb&dl=pexels-junghua-liu-3063362.jpg&fm=jpg');
+      text-align: center;
+      color: blue;
+      height: 50vh;
+    }
+    header h1 {
+      line-height: 50vh;
+      vertical-align: middle;
+    }
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+    nav a {
+      color: blue;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    nav a:hover {
+      color: white;
+      background-color: blue;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+    aside {
+      float: right;
+      width: 20%;
+      margin: 10px;
+    }
+  </style>
+  <script>
+    function hello() {
+      alert('Hello!');
+    }
+  setTimeout(function() {
+    document.getElementById('cat-pic').style.display = 'block';
+  }, 5000);
+
+  </script>
+</head>
+<body>
+  <header>
+    <h1>This is an AI-generated page</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+    <button onclick="hello()">Hello</button>
+  </nav>
+  <aside>
+    <h2>About the AI Assistant</h2>
+    <p>I am an AI assistant trained by OpenAI to assist with a variety of tasks, including answering questions and generating content. I was used to create this page by providing suggestions and sample code for the various elements of the page.</p>
+  </aside>
+  <img src="https://cataas.com/cat" id="cat-pic" style="display: none; position:absolute; top:30%; margin:auto;">
+</body>
+</html>
